@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 引入bootstrap文件 -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <!-- 引入自己的css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 兼容IE8 的写法 -->
+    <!-- [if lt IE 9]
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif] -->
+    <script src="./lib/bootstrap/js/jquery-1.12.4.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wjs-topbar container-fluid visible-lg-block">
+        <a href="" class="col-sm-4">
+            <span class="icon icon-telephone"></span>客服电话：4006-89-4006 / 010-53563799/（9:00~21:00）</a>
+        <a href="" class="col-sm-1">
+            <span class="icon icon-service-o"></span>客服</a>
+        <a href="" class="col-sm-1">
+            <span class="icon icon-mobile-2"></span>客户端</a>
+        <a href="" class="col-sm-1">
+            <span class="icon icon-wechat-o"></span>公众号</a>
+        <a href="" class="col-sm-1">
+            <span class="icon icon-money-bag"></span>财富登录</a>
+        <a href="" class="col-sm-1">存管中心</a>
+        <a href="" class="col-sm-1">帮助中心</a>
+        <div class="login col-sm-1 col-sm-offset-1">
+            <a href="">登录</a>
+            <a href="">注册</a>
+        </div>
+    </div>
+    <!-- 导航条部分 -->
+    <nav class="wjs-navbar navbar-default container-fluid navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="icon icon-logo"></span>
+                    <span class="icon icon-weijinsuo"></span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#"> 首页</a>
+                    </li>
+                    <li>
+                        <a href="#">我要投资</a>
+                    </li>
+                    <li>
+                        <a href="#">安全保障</a>
+                    </li>
+                    <li>
+                        <a href="#">新手专区</a>
+                    </li>
+                    <li>
+                        <a href="#">新闻公告</a>
+                    </li>
+                    <li>
+                        <a href="#">关于我们</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">我的账户</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- banner部分 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- 小圆点 -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="img visible-lg-block"></div>
+                <img class="hidden-lg" src="./images/slide_01_640x340.jpg" alt="...">
+            </div>
+            <div class="item">
+                <div class="img visible-lg-block"></div>
+                <img class="hidden-lg" src="./images/slide_01_640x340.jpg" alt="...">
+            </div>
+            <div class="item">
+                <div class="img visible-lg-block"></div>
+                <img class="hidden-lg" src="./images/slide_03_640x340.jpg" alt="...">
+            </div>
+            <div class="item">
+                <div class="img visible-lg-block"></div>
+                <img class="hidden-lg" src="./images/slide_04_640x340.jpg" alt="...">
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- 广告部分 -->
+    <div class="wjs-ad ">
+        <a class="col-xs-6 col-md-2">
+            <span class="icon icon-usd-barchart"></span>
+            <p class="title">海航资本领投</p>
+            <p class="subtitle">宝新能源/深创投跟投A轮</p>
+        </a>
+        <a class="col-xs-6 col-md-2">
+            <span class="icon icon-pay-square"></span>
+            <p class="title">海航资本领投</p>
+            <p class="subtitle">宝新能源/深创投跟投A轮</p>
+        </a>
+        <a class="col-xs-6 col-md-2">
+            <span class="icon icon-usd"></span>
+            <p class="title">海航资本领投</p>
+            <p class="subtitle">宝新能源/深创投跟投A轮</p>
+        </a>
+        <a class="col-xs-6 col-md-2">
+            <span class="icon icon-insurance"></span>
+            <p class="title">海航资本领投</p>
+            <p class="subtitle">宝新能源/深创投跟投A轮</p>
+        </a>
+        <a class="numadvs col-xs-6 col-md-2">
+            <p>平台上线时间</p>
+            <p class="num">2013/11/15</p>
+            <p>累计成交额(元)</p>
+            <p class="num">9,283,776,066</p>
+        </a>
+        <a class="numadvs col-xs-6 col-md-2">
+            <p>平台上线时间</p>
+            <p class="num">2013/11/15</p>
+            <p>累计成交额(元)</p>
+            <p class="num">9,283,776,066</p>
+        </a>
+    </div>
+    <!-- 商品部分 -->
+    <div class="wjs-product">
+        <div class="product col-lg-6">
+            <div class="left hidden-xs">
+                <img src="./images/p-1.png" alt="">
+            </div>
+            <div class="right">
+                <p class="title">微金宝1月期
+                    <span class="badge">明星产品</span>
+                </p>
+                <p class="li-title">月付息到期还本</p>
+                <ul>
+                    <li>
+                        <p class="num">6.5%</p>
+                        <p class="title">年化收益率</p>
+                    </li>
+                    <li>
+                        <p class="num">6.5%</p>
+                        <p class="title">年化收益率</p>
+                    </li>
+                    <li>
+                        <p class="num">45%</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 45%">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-danger">立即投资</button>
+                <p class="li-title">每半月可申请赎回一次/每半月加息0.2%/投资即计息</p>
+            </div>
+        </div>
+        <div class="product col-lg-6">
+            <div class="left hidden-xs">
+                <img src="./images/p-2.png" alt="">
+            </div>
+            <div class="right">
+                <p class="title">微金宝1月期
+                    <span class="badge">明星产品</span>
+                </p>
+                <p class="li-title">月付息到期还本</p>
+                <ul>
+                    <li>
+                        <p class="num">6.5%</p>
+                        <p class="title">年化收益率</p>
+                    </li>
+                    <li>
+                        <p class="num">6.5%</p>
+                        <p class="title">年化收益率</p>
+                    </li>
+                    <li>
+                        <p class="num">45%</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 45%">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-danger">立即投资</button>
+                <p class="li-title">每半月可申请赎回一次/每半月加息0.2%/投资即计息</p>
+            </div>
+        </div>
+        <div class="product col-lg-6">
+            <div class="left hidden-xs">
+                <img src="./images/p-1.png" alt="">
+            </div>
+            <div class="right">
+                <p class="title">微金宝1月期
+                    <span class="badge">明星产品</span>
+                </p>
+                <p class="li-title">月付息到期还本</p>
+                <ul>
+                    <li>
+                        <p class="num">6.5%</p>
+                        <p class="title">年化收益率</p>
+                    </li>
+                    <li>
+                        <p class="num">6.5%</p>
+                        <p class="title">年化收益率</p>
+                    </li>
+                    <li>
+                        <p class="num">45%</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 45%">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-danger">立即投资</button>
+                <p class="li-title">每半月可申请赎回一次/每半月加息0.2%/投资即计息</p>
+            </div>
+        </div>
+        <div class="product col-lg-6">
+            <div class="left hidden-xs">
+                <img src="./images/p-2.png" alt="">
+            </div>
+            <div class="right">
+                <p class="title">微金宝1月期
+                    <span class="badge">明星产品</span>
+                </p>
+                <p class="li-title">月付息到期还本</p>
+                <ul>
+                    <li>
+                        <p class="num">6.5%</p>
+                        <p class="title">年化收益率</p>
+                    </li>
+                    <li>
+                        <p class="num">6.5%</p>
+                        <p class="title">年化收益率</p>
+                    </li>
+                    <li>
+                        <p class="num">45%</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 45%">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-danger">立即投资</button>
+                <p class="li-title">每半月可申请赎回一次/每半月加息0.2%/投资即计息</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
